@@ -14,5 +14,8 @@ return a*b;
 
 //division
 int div(int a,int b){
-return a/b;
+if(b==0)
+	return 0;
+else
+	return (int)(a/b);
 }
