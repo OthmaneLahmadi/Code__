@@ -19,3 +19,13 @@ if(b==0)
 else
 	return (int)(a/b);
 }
+
+//factoriel
+int fact(int f){
+int p=1;
+for(int i=1;i<=f;i++){
+p=p*i;
+}
+return p;
+}
+
